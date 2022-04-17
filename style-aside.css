@@ -1,0 +1,165 @@
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.personal-info .contact{
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.personal-info .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+span ion-icon{
+    font-size: 25px;
+    margin-right: 6px;
+}
+
+.abiliity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.abiliity h1{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 18px;
+
+}
+
+.abiliity p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.abiliity .tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.abiliity .tools .barra1{
+    width: 170px;
+    height: 10px;
+    background-color: #fff;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.abiliity .tools .barra1::before{
+    content: '';
+    width: 58%;
+    background-color: #3a004b;
+}
+
+.abiliity .tools .barra2{
+    width: 170px;
+    height: 10px;
+    background-color: #fff;
+    display: flex;
+}
+
+.abiliity .tools .barra2::before{
+    content: '';
+    width: 36%;
+    background-color: #3a004b;
+}
+
+
+.abiliity .tools .barra3{
+    width: 170px;
+    height: 10px;
+    background-color: #fff;
+    display: flex;
+}
+
+.abiliity .tools .barra3::before{
+    content: '';
+    width: 20%;
+    background-color: #3a004b;
+}
+
+.abiliity .tools .barra4{
+    width: 170px;
+    height: 10px;
+    background-color: #fff;
+    display: flex;
+}
+
+.abiliity .tools .barra4::before{
+    content: '';
+    width: 64%;
+    background-color: #3a004b;
+}
+
+.abiliity ion-icon {
+    font-size: 40px;
+    margin-right: 6px;
+    color: #fff;
+}
+
+.interests-title{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 25px;
+}
+
+.interests{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.interests .wills p{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.interests .wills ion-icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
