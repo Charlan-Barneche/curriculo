@@ -137,7 +137,7 @@ main{
   @keyframes flash {
         0% {
         background-color: #3a004b;
-        border: 0px solid #3a004b;
+        border: 5px solid #3a004b;
         }
 
         50% {
